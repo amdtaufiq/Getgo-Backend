@@ -1,0 +1,35 @@
+version: '3.4'
+
+
+networks:
+  dockerapi-dev:
+    driver: bridge 
+
+services:
+  car.api:
+    environment:
+      DB_CONNECTION_STRING: "host=postgres_image;port=5432;database=cardb;username=postgres;password=postgres"
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "http://+:7005"
+    ports:
+      - 7005:7005
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+    depends_on:
+      - "postgres_image"
+    networks:
+      - dockerapi-dev
+  postgres_image:
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_DB: "cardb"
+    ports:
+      - '5433:5432'
+    volumes:
+      - db_volume:/var/lib/postgresql/data
+    networks:
+      - dockerapi-dev
+volumes:
+  db_volume:

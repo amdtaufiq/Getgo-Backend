@@ -1,0 +1,12 @@
+A:\TEST DOTNET\GetGo\Car\Car.Core\bin\Debug\net6.0\Car.Core.deps.json
+A:\TEST DOTNET\GetGo\Car\Car.Core\bin\Debug\net6.0\Car.Core.dll
+A:\TEST DOTNET\GetGo\Car\Car.Core\bin\Debug\net6.0\Car.Core.pdb
+A:\TEST DOTNET\GetGo\Car\Car.Core\obj\Debug\net6.0\Car.Core.csproj.AssemblyReference.cache
+A:\TEST DOTNET\GetGo\Car\Car.Core\obj\Debug\net6.0\Car.Core.GeneratedMSBuildEditorConfig.editorconfig
+A:\TEST DOTNET\GetGo\Car\Car.Core\obj\Debug\net6.0\Car.Core.AssemblyInfoInputs.cache
+A:\TEST DOTNET\GetGo\Car\Car.Core\obj\Debug\net6.0\Car.Core.AssemblyInfo.cs
+A:\TEST DOTNET\GetGo\Car\Car.Core\obj\Debug\net6.0\Car.Core.csproj.CoreCompileInputs.cache
+A:\TEST DOTNET\GetGo\Car\Car.Core\obj\Debug\net6.0\Car.Core.dll
+A:\TEST DOTNET\GetGo\Car\Car.Core\obj\Debug\net6.0\refint\Car.Core.dll
+A:\TEST DOTNET\GetGo\Car\Car.Core\obj\Debug\net6.0\Car.Core.pdb
+A:\TEST DOTNET\GetGo\Car\Car.Core\obj\Debug\net6.0\ref\Car.Core.dll

@@ -1,0 +1,60 @@
+name: dockercompose13756272347626965940
+services:
+  car.api:
+    build:
+      context: A:\TEST DOTNET\GetGo\Car
+      dockerfile: Car.Api/Dockerfile
+    depends_on:
+      postgres_image:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:7005
+      DB_CONNECTION_STRING: host=postgres_image;port=5432;database=cardb;username=postgres;password=postgres
+    image: carapi
+    networks:
+      dockerapi-dev: null
+    ports:
+    - mode: ingress
+      target: 7005
+      published: "7005"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\TAUFIQ\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\TAUFIQ\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  postgres_image:
+    environment:
+      POSTGRES_DB: cardb
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres:latest
+    networks:
+      dockerapi-dev: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5433"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: db_volume
+      target: /var/lib/postgresql/data
+      volume: {}
+networks:
+  dockerapi-dev:
+    name: dockercompose13756272347626965940_dockerapi-dev
+    driver: bridge
+volumes:
+  db_volume:
+    name: dockercompose13756272347626965940_db_volume

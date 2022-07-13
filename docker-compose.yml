@@ -1,0 +1,12 @@
+version: '3.4'
+
+
+services:
+  postgres_image:
+    image: postgres:latest
+    restart: always
+  car.api:
+    image: ${DOCKER_REGISTRY-}carapi
+    build:
+      context: .
+      dockerfile: Car.Api/Dockerfile

@@ -1,0 +1,17 @@
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\bin\Debug\net6.0\Car.Infrastructure.deps.json
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\bin\Debug\net6.0\Car.Infrastructure.runtimeconfig.json
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\bin\Debug\net6.0\Car.Infrastructure.dll
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\bin\Debug\net6.0\Car.Infrastructure.pdb
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\obj\Debug\net6.0\Car.Infrastructure.csproj.AssemblyReference.cache
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\obj\Debug\net6.0\Car.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\obj\Debug\net6.0\Car.Infrastructure.AssemblyInfoInputs.cache
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\obj\Debug\net6.0\Car.Infrastructure.AssemblyInfo.cs
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\obj\Debug\net6.0\Car.Infrastructure.csproj.CoreCompileInputs.cache
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\obj\Debug\net6.0\Car.Infrastructure.dll
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\obj\Debug\net6.0\refint\Car.Infrastructure.dll
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\obj\Debug\net6.0\Car.Infrastructure.pdb
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\obj\Debug\net6.0\Car.Infrastructure.genruntimeconfig.cache
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\obj\Debug\net6.0\ref\Car.Infrastructure.dll
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\bin\Debug\net6.0\Car.Core.dll
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\bin\Debug\net6.0\Car.Core.pdb
+A:\TEST DOTNET\GetGo\Car\Car.Infrastructure\obj\Debug\net6.0\Car.Infrastructure.csproj.CopyComplete
